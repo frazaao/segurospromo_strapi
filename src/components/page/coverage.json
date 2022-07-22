@@ -2,7 +2,8 @@
   "collectionName": "components_page_coverages",
   "info": {
     "displayName": "Coverage",
-    "icon": "globe"
+    "icon": "globe",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -24,7 +25,8 @@
     "Button": {
       "type": "component",
       "repeatable": false,
-      "component": "page.button"
+      "component": "page.button",
+      "required": true
     }
   }
 }

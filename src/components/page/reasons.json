@@ -2,7 +2,8 @@
   "collectionName": "components_page_reasons",
   "info": {
     "displayName": "Reasons",
-    "icon": "question"
+    "icon": "question",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -20,7 +21,8 @@
     "Button": {
       "type": "component",
       "repeatable": false,
-      "component": "page.button"
+      "component": "page.button",
+      "required": true
     }
   }
 }
