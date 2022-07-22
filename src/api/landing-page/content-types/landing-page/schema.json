@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "LandingPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "displayName": "Hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero",
+      "required": true
+    },
+    "List": {
+      "displayName": "Plans",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.plans",
+      "required": true
+    },
+    "Coverage": {
+      "displayName": "Coverage",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.coverage",
+      "required": true
+    },
+    "Reasons": {
+      "displayName": "Reasons",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.reasons",
+      "required": true
+    },
+    "Contact": {
+      "displayName": "Contact",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.contact",
+      "required": true
+    }
+  }
+}

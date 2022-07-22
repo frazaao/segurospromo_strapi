@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_coverages",
+  "info": {
+    "displayName": "Coverage",
+    "icon": "globe"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "CoverageCard": {
+      "displayName": "CoverageCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.coverage-card",
+      "required": true
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button"
+    }
+  }
+}

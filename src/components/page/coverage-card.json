@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_page_coverage_cards",
+  "info": {
+    "displayName": "CoverageCard",
+    "icon": "id-card"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Link": {
+      "type": "string",
+      "required": true
+    },
+    "ButtonLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

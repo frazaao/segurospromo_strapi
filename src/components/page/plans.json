@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_plans",
+  "info": {
+    "displayName": "Plans",
+    "icon": "list-ol"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Steps": {
+      "displayName": "Steps",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.steps",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "page.button"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_contacts",
+  "info": {
+    "displayName": "Contact",
+    "icon": "phone-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "CallToAction": {
+      "type": "string",
+      "required": true
+    },
+    "PhoneNumber": {
+      "type": "string",
+      "required": true,
+      "default": "(99) 9999.9999"
+    },
+    "ButtonWhatsApp": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button"
+    },
+    "OpeningHours": {
+      "type": "string"
+    }
+  }
+}

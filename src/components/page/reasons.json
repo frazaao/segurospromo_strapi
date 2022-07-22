@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_reasons",
+  "info": {
+    "displayName": "Reasons",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Accordion": {
+      "displayName": "Accordion",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.accordion",
+      "required": true
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button"
+    }
+  }
+}

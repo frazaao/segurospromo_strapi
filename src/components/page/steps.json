@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_steps",
+  "info": {
+    "displayName": "Steps",
+    "icon": "step-forward"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

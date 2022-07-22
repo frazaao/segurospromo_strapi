@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "Link": {
+      "type": "string",
+      "required": true
+    },
+    "Label": {
+      "type": "string",
+      "required": true
+    },
+    "Variant": {
+      "type": "enumeration",
+      "enum": [
+        "thin",
+        "bold"
+      ],
+      "default": "bold",
+      "required": false
+    }
+  }
+}
